@@ -14,3 +14,5 @@ function namastey() {
 var greeting = namastey()
 console.log(greeting);
 console.log(namastey());
+
+// if we are executing two function at a time then the last function will be executed...first function will be ignored.
