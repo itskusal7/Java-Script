@@ -7,4 +7,4 @@ function init() {
     }
     sayFirstName();
 }
-// init();
+init();
