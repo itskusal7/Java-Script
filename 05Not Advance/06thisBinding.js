@@ -24,7 +24,11 @@ const dj = {
 // kushal.getInfo();
 // dj.getInfo();
 
-var djInfo = kushal.getInfo.bind(dj);
-djInfo();
+// var djInfo = kushal.getInfo.bind(dj);
+// djInfo();
 
-// bind always give you a reference back and you have to run the reference.
+// bind always give you a reference back and you have to manually call the method.
+
+kushal.getInfo.call(dj);
+
+// but call directly calls it.
